@@ -1,0 +1,11 @@
+[project]
+name = "llama-alpacaeval-mt-bench"
+version = "0.1.0"
+description = "Generate MT-Bench and AlpacaEval completions using Llama 2 models"
+requires-python = ">=3.12"
+dependencies = [
+    "accelerate>=1.10.1",
+    "huggingface-hub[cli]>=0.35.3",
+    "torch>=2.9.0",
+    "transformers>=4.57.1",
+]
